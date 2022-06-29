@@ -1,11 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
+import countries from './../src/data/countries.json';
 import MyMap from "./components/MyMap";
 
 function App() {
+ 
+
   return (
-    <div>
-      <h1 style={{textAlign: "center"}}> MyMap</h1>
-    </div> 
+   <MyMap/>
   );
 }
 
